@@ -15,6 +15,24 @@
 		08CC512E2295A8C300ABC69E /* tosshomeworkSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CC512D2295A8C300ABC69E /* tosshomeworkSampleUITests.swift */; };
 		08CC513C2295B10200ABC69E /* cached_data.json in Resources */ = {isa = PBXBuildFile; fileRef = 08CC513B2295B10200ABC69E /* cached_data.json */; };
 		08CC513E2295B10D00ABC69E /* ProgressButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CC513D2295B10D00ABC69E /* ProgressButton.swift */; };
+		2DE201212D45224900F64C64 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE201202D45224900F64C64 /* Logger.swift */; };
+		2DE201252D45247C00F64C64 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE201242D45247C00F64C64 /* NetworkManager.swift */; };
+		2DE201272D4525DF00F64C64 /* DutchSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE201262D4525DF00F64C64 /* DutchSummary.swift */; };
+		2DE201292D45260500F64C64 /* DutchDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE201282D45260400F64C64 /* DutchDetail.swift */; };
+		2DE2012B2D45262700F64C64 /* DutchListResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE2012A2D45262700F64C64 /* DutchListResponse.swift */; };
+		2DE2012F2D452C4400F64C64 /* DutchPayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE2012E2D452C4400F64C64 /* DutchPayViewModel.swift */; };
+		2DE201322D452CCE00F64C64 /* DutchPayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE201312D452CCE00F64C64 /* DutchPayViewController.swift */; };
+		2DE201342D452FCD00F64C64 /* DutchPaySummaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE201332D452FCD00F64C64 /* DutchPaySummaryCell.swift */; };
+		2DE201362D452FDB00F64C64 /* DutchPayListItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE201352D452FDB00F64C64 /* DutchPayListItemCell.swift */; };
+		2DE201382D452FEB00F64C64 /* DutchPayADCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE201372D452FEB00F64C64 /* DutchPayADCell.swift */; };
+		2DE2013B2D45304A00F64C64 /* UITableViewCell+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE2013A2D45304A00F64C64 /* UITableViewCell+Extension.swift */; };
+		2DE2013D2D4539DB00F64C64 /* DutchItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE2013C2D4539DB00F64C64 /* DutchItem.swift */; };
+		2DE201412D45574D00F64C64 /* LocalizedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE201402D45574D00F64C64 /* LocalizedString.swift */; };
+		2DE201432D45577D00F64C64 /* String+LocalizedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE201422D45577D00F64C64 /* String+LocalizedString.swift */; };
+		2DE201452D45579900F64C64 /* StringResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE201442D45579900F64C64 /* StringResource.swift */; };
+		2DE201472D455FC300F64C64 /* Int+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE201462D455FC300F64C64 /* Int+Extension.swift */; };
+		2DE2014B2D4586A700F64C64 /* DutchPayListItemCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE2014A2D4586A700F64C64 /* DutchPayListItemCellViewModel.swift */; };
+		2DE2014D2D45877D00F64C64 /* DetailItemCellRequestStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE2014C2D45877D00F64C64 /* DetailItemCellRequestStatus.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +67,24 @@
 		08CC512F2295A8C300ABC69E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		08CC513B2295B10200ABC69E /* cached_data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cached_data.json; sourceTree = "<group>"; };
 		08CC513D2295B10D00ABC69E /* ProgressButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressButton.swift; sourceTree = "<group>"; };
+		2DE201202D45224900F64C64 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		2DE201242D45247C00F64C64 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		2DE201262D4525DF00F64C64 /* DutchSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DutchSummary.swift; sourceTree = "<group>"; };
+		2DE201282D45260400F64C64 /* DutchDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DutchDetail.swift; sourceTree = "<group>"; };
+		2DE2012A2D45262700F64C64 /* DutchListResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DutchListResponse.swift; sourceTree = "<group>"; };
+		2DE2012E2D452C4400F64C64 /* DutchPayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DutchPayViewModel.swift; sourceTree = "<group>"; };
+		2DE201312D452CCE00F64C64 /* DutchPayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DutchPayViewController.swift; sourceTree = "<group>"; };
+		2DE201332D452FCD00F64C64 /* DutchPaySummaryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DutchPaySummaryCell.swift; sourceTree = "<group>"; };
+		2DE201352D452FDB00F64C64 /* DutchPayListItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DutchPayListItemCell.swift; sourceTree = "<group>"; };
+		2DE201372D452FEB00F64C64 /* DutchPayADCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DutchPayADCell.swift; sourceTree = "<group>"; };
+		2DE2013A2D45304A00F64C64 /* UITableViewCell+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Extension.swift"; sourceTree = "<group>"; };
+		2DE2013C2D4539DB00F64C64 /* DutchItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DutchItem.swift; sourceTree = "<group>"; };
+		2DE201402D45574D00F64C64 /* LocalizedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedString.swift; sourceTree = "<group>"; };
+		2DE201422D45577D00F64C64 /* String+LocalizedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+LocalizedString.swift"; sourceTree = "<group>"; };
+		2DE201442D45579900F64C64 /* StringResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringResource.swift; sourceTree = "<group>"; };
+		2DE201462D455FC300F64C64 /* Int+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extension.swift"; sourceTree = "<group>"; };
+		2DE2014A2D4586A700F64C64 /* DutchPayListItemCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DutchPayListItemCellViewModel.swift; sourceTree = "<group>"; };
+		2DE2014C2D45877D00F64C64 /* DetailItemCellRequestStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailItemCellRequestStatus.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				08CC510C2295A8C200ABC69E /* tosshomeworkSample */,
+				2DE2013E2D45570200F64C64 /* Resource */,
 				08CC51212295A8C300ABC69E /* tosshomeworkSampleTests */,
 				08CC512C2295A8C300ABC69E /* tosshomeworkSampleUITests */,
 				08CC510B2295A8C200ABC69E /* Products */,
@@ -106,6 +143,10 @@
 				08CC51162295A8C300ABC69E /* LaunchScreen.storyboard */,
 				08CC513B2295B10200ABC69E /* cached_data.json */,
 				08CC51192295A8C300ABC69E /* Info.plist */,
+				2DE201302D452C6500F64C64 /* DutchPay */,
+				2DE201312D452CCE00F64C64 /* DutchPayViewController.swift */,
+				2DE201232D45244C00F64C64 /* Manager */,
+				2DE2011F2D45223800F64C64 /* Utils */,
 			);
 			path = tosshomeworkSample;
 			sourceTree = "<group>";
@@ -126,6 +167,91 @@
 				08CC512F2295A8C300ABC69E /* Info.plist */,
 			);
 			path = tosshomeworkSampleUITests;
+			sourceTree = "<group>";
+		};
+		2DE2011F2D45223800F64C64 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				2DE201392D45302E00F64C64 /* Extension */,
+				2DE201202D45224900F64C64 /* Logger.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		2DE201222D45240200F64C64 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2DE2012A2D45262700F64C64 /* DutchListResponse.swift */,
+				2DE201262D4525DF00F64C64 /* DutchSummary.swift */,
+				2DE201282D45260400F64C64 /* DutchDetail.swift */,
+				2DE2013C2D4539DB00F64C64 /* DutchItem.swift */,
+				2DE2014C2D45877D00F64C64 /* DetailItemCellRequestStatus.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2DE201232D45244C00F64C64 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				2DE201242D45247C00F64C64 /* NetworkManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		2DE2012C2D45290900F64C64 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2DE201332D452FCD00F64C64 /* DutchPaySummaryCell.swift */,
+				2DE201352D452FDB00F64C64 /* DutchPayListItemCell.swift */,
+				2DE201372D452FEB00F64C64 /* DutchPayADCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2DE2012D2D452C1C00F64C64 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2DE2012E2D452C4400F64C64 /* DutchPayViewModel.swift */,
+				2DE2014A2D4586A700F64C64 /* DutchPayListItemCellViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2DE201302D452C6500F64C64 /* DutchPay */ = {
+			isa = PBXGroup;
+			children = (
+				2DE201222D45240200F64C64 /* Model */,
+				2DE2012D2D452C1C00F64C64 /* ViewModel */,
+				2DE2012C2D45290900F64C64 /* View */,
+			);
+			path = DutchPay;
+			sourceTree = "<group>";
+		};
+		2DE201392D45302E00F64C64 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2DE2013A2D45304A00F64C64 /* UITableViewCell+Extension.swift */,
+				2DE201462D455FC300F64C64 /* Int+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		2DE2013E2D45570200F64C64 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				2DE2013F2D45574000F64C64 /* String */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		2DE2013F2D45574000F64C64 /* String */ = {
+			isa = PBXGroup;
+			children = (
+				2DE201402D45574D00F64C64 /* LocalizedString.swift */,
+				2DE201422D45577D00F64C64 /* String+LocalizedString.swift */,
+				2DE201442D45579900F64C64 /* StringResource.swift */,
+			);
+			path = String;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,9 +388,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DE201472D455FC300F64C64 /* Int+Extension.swift in Sources */,
 				08CC513E2295B10D00ABC69E /* ProgressButton.swift in Sources */,
+				2DE2014D2D45877D00F64C64 /* DetailItemCellRequestStatus.swift in Sources */,
+				2DE2012F2D452C4400F64C64 /* DutchPayViewModel.swift in Sources */,
+				2DE201322D452CCE00F64C64 /* DutchPayViewController.swift in Sources */,
+				2DE201362D452FDB00F64C64 /* DutchPayListItemCell.swift in Sources */,
 				08CC51102295A8C200ABC69E /* ViewController.swift in Sources */,
+				2DE2013D2D4539DB00F64C64 /* DutchItem.swift in Sources */,
+				2DE201292D45260500F64C64 /* DutchDetail.swift in Sources */,
+				2DE201252D45247C00F64C64 /* NetworkManager.swift in Sources */,
+				2DE2013B2D45304A00F64C64 /* UITableViewCell+Extension.swift in Sources */,
+				2DE201272D4525DF00F64C64 /* DutchSummary.swift in Sources */,
+				2DE2012B2D45262700F64C64 /* DutchListResponse.swift in Sources */,
 				08CC510E2295A8C200ABC69E /* AppDelegate.swift in Sources */,
+				2DE201452D45579900F64C64 /* StringResource.swift in Sources */,
+				2DE201342D452FCD00F64C64 /* DutchPaySummaryCell.swift in Sources */,
+				2DE201212D45224900F64C64 /* Logger.swift in Sources */,
+				2DE201412D45574D00F64C64 /* LocalizedString.swift in Sources */,
+				2DE201432D45577D00F64C64 /* String+LocalizedString.swift in Sources */,
+				2DE201382D452FEB00F64C64 /* DutchPayADCell.swift in Sources */,
+				2DE2014B2D4586A700F64C64 /* DutchPayListItemCellViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +579,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = tosshomeworkSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,6 +597,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = tosshomeworkSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
